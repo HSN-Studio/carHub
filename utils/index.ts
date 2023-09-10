@@ -1,5 +1,5 @@
 import { CarProps } from "@/types";
-import { rapidApiKey } from "@/keys";
+import { rapidApiKey } from "@/keys/index";
 import { FilterProps } from "@/types";
 export async function fetchCars(filters: FilterProps) {
   const { manufacturer, year, model, limit, fuel } = filters;
